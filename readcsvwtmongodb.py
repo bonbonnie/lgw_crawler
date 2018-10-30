@@ -4,12 +4,7 @@ import csv
 import os
 import numpy as np
 from pymongo import MongoClient
-#
-# csv_file = csv.reader(open('cleared/Android-pred.csv'), 'r')
-# print(csv_file)
-#
-# for item in csv_file:
-#     print(item)
+
 def getallfiles():
     path = os.path.abspath(os.getcwd())+ '/cleared/'
     lines = []
